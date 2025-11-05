@@ -1,4 +1,4 @@
-import { renderCurrentAsset } from "../components/current-asset";
+import { renderCurrentAsset } from "./current-asset";
 import { store, removeHistory } from "../store";
 
 const $sectionHistory = document.querySelector(".history");
